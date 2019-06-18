@@ -1,3 +1,5 @@
+import { IActivity } from '../activity/activity.model';
+
 export interface IDestination {
 	id: string;
 	name: string;
@@ -10,4 +12,5 @@ export interface IDestination {
 	bg: string;
 	thumbnail: string;
 	gallery: string[];
+	activities?: IActivity[];
 }
